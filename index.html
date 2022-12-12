@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zone.</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <nav>
+                    <div class="logo">
+                        <img src="images/logo.svg" alt="">
+                    </div>
+                    <div class="nav1">
+                        <ul class="list">
+                            <a href="">Home</a>
+                            <a href="">About Us</a>
+                            <a href="">Service</a>
+                            <a href="">Pricing</a>
+                            <a href="">Blog</a>
+                        </ul>
+                        <div class="button1">
+                            <button>Contact Us</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="sec1">
+            <div>
+                <div class="s1b1">
+                    <div class="s1b1t">
+                        <h1>
+                            Virtual Reality Business Solutions
+                        </h1>
+                        <p>
+                            We have over 15 year exprience in business consultting arena. We have over 15 year exprience in business consultting arena and artficial intelligence.
+                        </p>
+                        <div class="s1b1tb">
+                            <button class="button2">Join Us</button>
+                            <button onclick="location.href = `https:\/\/youtu.be/SzAmAWO9dwg`" class="button3">
+                                <img src="images/2.png" alt="">
+                                <a>Watch video</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="s1b1i">
+                        <img src="images/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <script>
+                const header = document.querySelector('.s1b1t h1')
+                let progress = 0;
+                let check = true;
+                setInterval(() =>
+                {
+                    header.style.backgroundImage = `linear-gradient(${progress}deg, #2563EB 0%, #D946EF 70%)`
+                    progress += 1;
+                    if (progress >= 360) 
+                    progress = 0
+                }, 15)
+
+            </script>
+        </section>
+
+        <section class="sec2">
+            <div>
+                <div class="s2b1">
+                    <h2>Our Service</h2>
+                    <p>We turn information into actionable insights We work to understand your issues
+                        and are driven to ask better questions in the pursuit of making work.</p>
+                </div>
+                <div class="s2b2">
+                    <div class="s2b2i">
+                        <div class="s2b2f">
+                            <img class="s2b2fi" src="images/4.png" alt="">
+                            <h3>Order Management</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <button class="button3">
+                                Learn more
+                                <img src="images/10.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="s2b2i">
+                        <div class="s2b2f">
+                            <img class="s2b2fi" src="images/5.png" alt="">
+                            <h3>Social Assistant</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <button class="button3">
+                                Learn more
+                                <img src="images/10.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="s2b2i">
+                        <div class="s2b2f">
+                            <img class="s2b2fi" src="images/6.png" alt="">
+                            <h3>Crypto Platform</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <button class="button3">
+                                Learn more
+                                <img src="images/10.png" alt="">
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="s2b2">
+                    <div class="s2b2i">
+                        <div class="s2b2f">
+                            <img class="s2b2fi" src="images/7.png" alt="">
+                            <h3>Smart Trading Modules</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <button class="button3">
+                                Learn more
+                                <img src="images/10.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="s2b2i">
+                        <div class="s2b2f">
+                            <img class="s2b2fi" src="images/8.png" alt="">
+                            <h3>Analyzer of the News</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <button class="button3">
+                                Learn more
+                                <img src="images/10.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="s2b2i">
+                        <div class="s2b2f">
+                            <img class="s2b2fi" src="images/9.png" alt="">
+                            <h3>Module of Price Notification</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur the adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
+                            <button class="button3">
+                                Learn more
+                                <img src="images/10.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec3">
+            <div>
+                <div class="s3b1">
+                    <div class="s3b1i">
+                        <img src="images/11.png" alt="">
+                    </div>
+                    <div class="s3b1t">
+                        <h2>
+                            We complete every projects
+                            extra care as customer need
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. 
+                        </p>
+                        <button>
+                            Read more
+                        </button>
+                    </div>
+                </div>
+                <div class="s3b2">
+                    <div class="s3b1t">
+                        <h2>
+                            We complete every projects
+                            extra care as customer need
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nuncoe scelerisque in. orem ipsum  dolor sit amet, consectetur adipisicing elit. Labore eius molestiae facere, natus reprehenderit eaque eum, autem ipsam. Magfini, error. Tempora odit laborum iure inventore possimus laboriosam qui nam. 
+                        </p>
+                        <button>
+                            Read more
+                        </button>
+                    </div>
+                    <div class="s3b1i">
+                        <img src="images/12.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec4">
+            <div>
+                <div class="s4b1">
+                    <h2>
+                        Met Our Team
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis 
+                        accumsan nisi Ut ut felis congue nisl hendrerit commodo.
+                    </p>
+                    <div class="s4b2">
+                        <div class="s4b2i">
+                            <div class="s4b2f">
+                                <img src="images/14.png" alt="" class="s4b2ava">
+                                <h3>Sunny Khan</h3>
+                                <p>Executive<br>officer</p>
+                                <div class="s4b2icon">
+                                    <img src="images/18.svg" alt="">
+                                    <img src="images/19.svg" alt="">
+                                    <img src="images/20.svg" alt="">
+                                    <img src="images/21.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s4b2i">
+                            <div class="s4b2f">
+                                <img src="images/15.png" alt="" class="s4b2ava">
+                                <h3>Alina Jesia</h3>
+                                <p>UX/UI<br>DESIGNER</p>
+                                <div class="s4b2icon">
+                                    <img src="images/18.svg" alt="">
+                                    <img src="images/19.svg" alt="">
+                                    <img src="images/20.svg" alt="">
+                                    <img src="images/21.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s4b2i">
+                            <div class="s4b2f">
+                                <img src="images/16.png" alt="" class="s4b2ava">
+                                <h3>Alex Sohag</h3>
+                                <p>BUSINESS<br>DEVELOPMENT</p>
+                                <div class="s4b2icon">
+                                    <img src="images/18.svg" alt="">
+                                    <img src="images/19.svg" alt="">
+                                    <img src="images/20.svg" alt="">
+                                    <img src="images/21.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="s4b2i">
+                            <div class="s4b2f">
+                                <img src="images/17.png" alt="" class="s4b2ava">
+                                <h3>Afroza Mou</h3>
+                                <p>Head of<br>marketing</p>
+                                <div class="s4b2icon">
+                                    <img src="images/18.svg" alt="">
+                                    <img src="images/19.svg" alt="">
+                                    <img src="images/20.svg" alt="">
+                                    <img src="images/21.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec5">
+            <div>
+                <div class="s5b1">
+                    <div class="s5b1i">
+                        <div class="s5b1f">
+                            <h2>Subscribe to get the Latest News</h2>
+                            <p>We recommended you to subscribe to our newspaper, drop your email below to get daily update about us</p>
+                            <div class="mail-box-i">
+                                <div class="mail-box">
+                                    <input class="mail-txt" type="text" name="" placeholder="Enter your email address">
+                                    <input class="mail-txt-ad" type="text" name="" placeholder="Email">
+                                    <a class="mail-btn" href="">
+                                        <img src="images/24.svg" alt="">
+                                        Subscribe
+                                    </a>
+                                    <a class="mail-btn-ad" href="">
+                                        <img src="images/24.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="basement">
+            <div>
+                <div class="bb">
+                    <div class="bb1">
+                        <img src="images/Logo.svg" alt="">
+                        <div class="bb1t">
+                            <img src="images/25.svg" alt="">
+                            <p>Moscow, Russia</p>
+                        </div>
+                        <div class="bb1t">
+                            <img src="images/26.svg" alt="">
+                            <p>+7 (909) 139-94-04</p>
+                        </div>
+                        <div class="bb1t">
+                            <img src="images/27.svg" alt="">
+                            <p>support@zone.com</p>
+                        </div>
+                        <div class="bb1ic">
+                            <a href=""><img src="images/28.svg" alt=""></a>
+                            <a href=""><img src="images/29.svg" alt=""></a>
+                            <a href=""><img src="images/30.svg" alt=""></a>
+                            <a href=""><img src="images/31.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="bb2">
+                        <div class="bb2f">
+                            <p class="bb2h">Service</p>
+                            <a href=""><p class="bb2p">Order Management</p></a>
+                            <a href=""><p class="bb2p">Social Assistant</p></a>
+                            <a href=""><p class="bb2p">Crypto Platform</p></a>
+                            <a href=""><p class="bb2p">Analyzer of the News</p></a>
+                        </div>
+                        <div class="bb2f">
+                            <p class="bb2h">Company</p>
+                            <a href=""><p class="bb2p">About Us</p></a>
+                            <a href=""><p class="bb2p">News</p></a>
+                            <a href=""><p class="bb2p">Our trusted partner</p></a>
+                            <a href=""><p class="bb2p">New users FAQ</p></a>
+                        </div>
+                        <div class="bb2f">
+                            <p class="bb2h">Supports</p>
+                            <a href=""><p class="bb2p">Help center</p></a>
+                            <a href=""><p class="bb2p">Feedback</p></a>
+                            <a href=""><p class="bb2p">Contact Us</p></a>
+                            <a href=""><p class="bb2p">Terms conditins</p></a>
+                        </div>
+                        <div class="bb2f">
+                            <p class="bb2h">Resources</p>
+                            <a href=""><p class="bb2p">Download app</p></a>
+                            <a href=""><p class="bb2p">Blog</p></a>
+                            <a href=""><p class="bb2p">What's new</p></a>
+                            <a href=""><p class="bb2p">Sitemap</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div>
+                <div class="sec6">
+                    <div>
+                        <p>© 2022 Zone. All rights reserved.</p>
+                    </div>
+                    <div class="s6b">
+                        <a href=""><p>Privacy</p></a>
+                        <a href=""><p>Security</p></a>
+                        <a href=""><p>Terms</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>    
+</body>
+</html>
